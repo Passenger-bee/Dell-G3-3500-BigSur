@@ -46,11 +46,11 @@ HDMI
 3.5mm audio interface 
  
 
-PS : Rename OpenCore folder to OC 
-Create a new folder name : EFI , then put your 
+PS : This folder can only start your hackintosh, not windows, so you need to put your Microsoft boot folder into EFI
 
-
-
+WARNING:    PM991 is not supported!
+                      PM991 is not supported!
+                      PM991 is not supported!  
 
 
 
