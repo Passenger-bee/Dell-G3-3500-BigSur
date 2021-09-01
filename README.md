@@ -15,16 +15,6 @@ Network Adapter:    BCM94352z Broadcom network adapter
 
        Audio            :     Realtek (ALC3254)
                                    Mic   (Intel@Smart Sound Technology)
-Etc :
-  Backlight Keyboard
-  HDMI 
-  1xUSB 3.0 
-  2xUSB 2.0 
-  Type C
-  Ethernet ( Realtek GB LAN)
-   SD card
-  3.5mm audio interface 
- 
 
 WHAT IS WORKING : 
  
