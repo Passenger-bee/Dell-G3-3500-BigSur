@@ -7,17 +7,14 @@ This is my Configuration:
    
           RAM           :        16 GB 
 
-  Hard     Drive    :      1)  Western Digital Machanical Disk
-                                    2) SamSung PM991 NVME Disk
+    Hard     Drive      :       Western Digital Machanical Disk
+                                    
+    Display Adapter     :        GTX 1650Ti    (not supported, only 630UHD)
 
-Display Adapter  :     630UHD Graphics
-                                    GTX 1650Ti 
+    Network Adapter.    :       BCM94352z Broadcom network adapter
 
-Network Adapter:    BCM94352z Broadcom network adapter
-
-       Audio            :     Realtek (ALC3254)
-                                   Mic   (Intel@Smart Sound Technology)
-
+       Audio            :       Realtek (ALC3254)
+                                  
 WHAT IS WORKING : 
  
 1.Display         (Adjust Brightness)
@@ -36,6 +33,9 @@ WHAT IS NOT WORKING :
  
 
 PS : This folder can only start your hackintosh, not windows, so you need to put your Microsoft boot folder into EFI
+
+Because the bcm94352z network card has been replaced, both "SPACE DELIVERY" and "RELAY" are supported on this machine
+
 
 WARNING:    PM991 is not supported!
             PM991 is not supported!
