@@ -16,6 +16,8 @@ Hackintosh
 
 *配置如上图所示：*其中机器出场自带的三星Pm991会导致内核崩溃，已更换为西部数据的SN750。为了更好地体验白苹果的网络功能，将网卡更换为博通94352z，**但是有一个重要的一个问题：这个网卡有可能会和自带的以太网卡驱动两者产生冲突，有可能需要禁用以太网卡的驱动。**
 
+![](/Users/harrypotter/Documents/GitHub/Dell-G3-3500/README.assets/驱动冲突-8526212.png)
+
 接下来是我的硬盘分区图：
 
 <img src="https://raw.githubusercontent.com/192421532/Dell-G3-3500/main/README.assets/分区图.png" style="zoom: 67%;" />
