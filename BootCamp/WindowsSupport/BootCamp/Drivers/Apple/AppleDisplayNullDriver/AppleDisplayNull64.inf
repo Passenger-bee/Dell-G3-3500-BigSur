@@ -1,0 +1,40 @@
+﻿; Installation inf for Apple display input deviceS null driver
+;
+; Copyright © 2006 Apple Inc. All Rights Reserved.
+;
+
+[Version]
+Signature=$Windows NT$
+Class=HIDClass
+ClassGuid={745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+DriverPackageDisplayName="Apple Display Input Device"
+Provider=%MFGNAME%
+CatalogFile=AppleDisplayNull64.cat
+DriverVer=10/01/2019,6.1.7700.0
+
+[Manufacturer]
+%MFGNAME%=Company.NT.5.1,NTamd64
+
+[Company.NT.5.1.NTamd64]
+%ALS_DEVICE%                = NullDeviceInstall,HID\VID_05AC&PID_9243&MI_00
+%ALS_DEVICE%                = NullDeviceInstall,HID\VID_05AC&PID_9243&MI_01
+%ORIENTATION_SENSOR_DEVICE% = NullDeviceInstall,HID\VID_05AC&PID_9243&MI_03
+%LID_SENSOR_DEVICE%         = NullDeviceInstall,USB\VID_05AC&PID_8104
+%USB_SERIAL_DEVICE%         = NullDeviceInstall,USB\VID_05AC&PID_9243&MI_05
+%LG_ALS_DEVICE%             = NullDeviceInstall,HID\VID_043E&PID_9A40&MI_02
+%LG_ALS_DEVICE%             = NullDeviceInstall,HID\VID_043E&PID_9A63&MI_02
+%LG_ALS_DEVICE%             = NullDeviceInstall,HID\VID_043E&PID_9A70&MI_02
+
+[NullDeviceInstall.NT]
+; (null driver)
+
+[NullDeviceInstall.NT.Services]
+AddService = ,2    ; no value for the service name
+
+[Strings]
+MFGNAME="Apple Inc."
+ALS_DEVICE="Apple Display HID Ambient Light Sensor"
+ORIENTATION_SENSOR_DEVICE="Apple Display HID Orientation Sensor"
+LID_SENSOR_DEVICE="Apple Internal Display Lid Sensor"
+USB_SERIAL_DEVICE="Apple Display USB Serial Device"
+LG_ALS_DEVICE="LG Display HID Ambient Light Sensor"

@@ -1,0 +1,42 @@
+; Installation INF for the Apple Pro Display XDR USB Composite Device
+;
+; Copyright © 2019 Apple Inc. All Rights Reserved.
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Usb
+ClassGuid={36FC9E60-C465-11CF-8056-444553540000}
+Provider=%Apple%
+CatalogFile=AppleProDisplayXDRUSBCompositeDevice.cat
+DriverVer=08/22/2019,6.1.7600.0
+
+[Manufacturer]
+%Apple%=UsbCCGPLoader,NTamd64
+
+;=============================================================================
+[UsbCCGPLoader.NTamd64]
+%AppleProDisplayXdrUsbCompositeDevice%=AppleUsbCCGPLoader, USB\VID_05AC&PID_9243
+
+[ControlFlags]
+ExcludeFromSelect=*
+
+[AppleUsbCCGPLoader.NT]
+Include=Usb.inf
+Needs=Composite.Dev.NT
+
+[AppleUsbCCGPLoader.NT.HW]
+AddReg = ConfigSelector.AddReg.NT
+
+[AppleUsbCCGPLoader.NT.Services]
+Include=Usb.inf
+Needs=Composite.Dev.NT.Services
+
+[ConfigSelector.AddReg.NT]
+HKR,,"OriginalConfigurationValue", 0x00010001, 1
+HKR,,"AltConfigurationValue", 0x00010001, 0
+
+[Strings]
+Apple			             = "Apple Inc."
+AppleProDisplayXdrUsbCompositeDevice = "Apple Pro Display XDR USB Composite Device"
+SourceDisk		             = "Apple Pro Display XDR USB Composite Device Installation"

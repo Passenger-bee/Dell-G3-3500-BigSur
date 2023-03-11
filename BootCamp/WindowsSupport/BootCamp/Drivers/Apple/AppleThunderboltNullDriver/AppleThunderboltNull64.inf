@@ -1,0 +1,37 @@
+; Installation inf for Thunderbolt devices null driver
+;
+; AppleThunderboltNull64.inf
+;
+; Copyright © 2020 Apple Inc. All Rights Reserved
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+DriverPackageDisplayName="Apple Thunderbolt Null Device"
+Provider=%ManufacturerName%
+CatalogFile=AppleThunderboltNull64.cat
+DriverVer=01/15/2020,6.1.7800.0
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Apple,NTamd64
+
+[Apple.NTamd64]
+%AppleThunderboltNull64.DeviceDesc%=NullDeviceInstall,PCI\VEN_8086&DEV_1577&CC_0880
+%AppleThunderboltNull64.DeviceDesc%=NullDeviceInstall,PCI\VEN_8086&DEV_15D2&CC_0880
+%AppleThunderboltNull64.DeviceDesc%=NullDeviceInstall,PCI\VEN_8086&DEV_15EB&CC_0880
+
+[NullDeviceInstall.NT]
+;
+
+[NullDeviceInstall.NT.Services]
+AddService = ,2
+
+[Strings]
+ManufacturerName="Apple Inc."
+DiskName = "AppleThunderboltNull64 Installation Disk"
+AppleThunderboltNull64.DeviceDesc = "Thunderbolt"
