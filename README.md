@@ -1,3 +1,7 @@
+---
+typora-root-url: ./README.assets
+---
+
 
 
 # Dell-G3-3500
