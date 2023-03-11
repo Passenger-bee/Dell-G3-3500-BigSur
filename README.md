@@ -28,7 +28,7 @@ Hackintosh
 
 **CPU/电源管理：**应该是完美电源控制了，CpuFriend.kext个人不建议使用，会导致机器大量发热。
 
-[](https://raw.githubusercontent.com/192421532/Dell-G3-3500/main/README.assets/about.png)
+<img src="https://raw.githubusercontent.com/192421532/Dell-G3-3500/main/README.assets/about.png" style="zoom:50%;" />
 
 https://raw.githubusercontent.com/192421532/Dell-G3-3500/main/README.assets/电池-电源适配器.png
 
