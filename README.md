@@ -1,7 +1,3 @@
----
-typora-root-url: ./README.assets
----
-
 
 
 # Dell-G3-3500
@@ -32,9 +28,9 @@ Hackintosh
 
 **CPU/电源管理：**应该是完美电源控制了，CpuFriend.kext个人不建议使用，会导致机器大量发热。
 
-<img src="/Users/harrypotter/Documents/GitHub/Dell-G3-3500/README.assets/about.png" alt="about" style="zoom:50%;" />
+[](https://raw.githubusercontent.com/192421532/Dell-G3-3500/main/README.assets/about.png)
 
-<img src="/Users/harrypotter/Documents/GitHub/Dell-G3-3500/README.assets/电池-电源适配器.png" alt="电池-电源适配器" style="zoom:50%;" />
+https://raw.githubusercontent.com/192421532/Dell-G3-3500/main/README.assets/电池-电源适配器.png
 
 <img src="/Users/harrypotter/Documents/GitHub/Dell-G3-3500/README.assets/电池.png" alt="电池" style="zoom: 50%;" />
 
