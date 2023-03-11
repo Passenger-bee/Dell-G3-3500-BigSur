@@ -30,31 +30,31 @@ Hackintosh
 
 **CPU/电源管理：**应该是完美电源控制了，CpuFriend.kext个人不建议使用，会导致机器大量发热。
 
-<img src="/Users/harrypotter/Library/Application Support/typora-user-images/image-20230310230706935.png" alt="image-20230310230706935" style="zoom: 50%;" />
+<img src="/Users/harrypotter/Documents/GitHub/Dell-G3-3500/images/about.png" style="zoom:50%;" />
 
-<img src="/Users/harrypotter/Library/Application Support/typora-user-images/image-20230310225919092.png" alt="image-20230310225919092" style="zoom:50%;" />
+<img src="/Users/harrypotter/Documents/GitHub/Dell-G3-3500/images/电池-电源适配器.png" style="zoom:50%;" />
 
-<img src="/Users/harrypotter/Library/Application Support/typora-user-images/image-20230310230003388.png" alt="image-20230310230003388" style="zoom:50%;" />
+![](/Users/harrypotter/Documents/GitHub/Dell-G3-3500/images/电池.png)
 
-<img src="/Users/harrypotter/Library/Application Support/typora-user-images/image-20230310232252562.png" alt="image-20230310232252562" style="zoom:50%;" />
+![](/Users/harrypotter/Documents/GitHub/Dell-G3-3500/images/电源.png)
 
 **显卡/显示器：**已开启HiDPi，使用“one-key-hidpi” **分辨率为1424x802**，另外一个问题是：<u>使用1680x945是最完美的分辨率，但会造成睡眠再次唤醒画面会变成原来的1/4，而且页面会很卡顿。</u>显卡GTX1650Ti已禁用，无法驱动。
 
-<img src="/Users/harrypotter/Library/Application Support/typora-user-images/image-20230310230233580.png" alt="image-20230310230233580" style="zoom: 50%;" />
+![](/Users/harrypotter/Documents/GitHub/Dell-G3-3500/images/图形卡-显示器.png)
 
-<img src="/Users/harrypotter/Library/Application Support/typora-user-images/image-20230310230258621.png" alt="image-20230310230258621" style="zoom: 50%;" />
+![](/Users/harrypotter/Documents/GitHub/Dell-G3-3500/images/显示器.png)
 
 **声音**：内置扬声器正常使用，但是内置麦克风、3.5mm音频查口无法使用（前者是因为intel智音技术无解，后者是声卡Codec好像比较乱，已从linux中提取出Codec，想研究的可以研究一下。）另外添加了开机音响，但是不知道为何没响。
 
  一个解决方案是：连接蓝牙音响，使用蓝牙音箱上的麦克风（但是对我而言麦克风用处很小）
 
-<img src="/Users/harrypotter/Library/Application Support/typora-user-images/image-20230310231402581.png" alt="image-20230310231402581" style="zoom:50%;" />
+![](/Users/harrypotter/Documents/GitHub/Dell-G3-3500/images/输出音量.png)
 
 **最主要的网络/蓝牙：**更换为苹果原装网卡以后（注意免驱，不需要添加Brcmpatch这类驱动文件），wifi、以太网、隔空投送、接力、随航、用AppleWatch解锁🔓一切如白苹果一般丝滑。
 
-<img src="/Users/harrypotter/Library/Application Support/typora-user-images/image-20230310232158027.png" alt="image-20230310232158027" style="zoom:50%;" />
+![](/Users/harrypotter/Documents/GitHub/Dell-G3-3500/images/wifi.png)
 
-<img src="/Users/harrypotter/Library/Application Support/typora-user-images/image-20230310232122821.png" alt="image-20230310232122821" style="zoom:50%;" />
+![](/Users/harrypotter/Documents/GitHub/Dell-G3-3500/images/蓝牙.png)
 
 ## **然后是其他琐碎项目：**
 
