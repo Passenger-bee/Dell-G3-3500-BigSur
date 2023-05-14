@@ -44,7 +44,7 @@ Hackintosh
 
 ALC id为21，其他的id声音太小（调最高也很小），这个正常多了，但是这个id随之带来的一个问题就是睡眠唤醒无声，通过添加CodecCommander.kext解决。
 
- 一个解决方案是：连接蓝牙音响，使用蓝牙音箱上的麦克风。
+ 麦克风的一个解决方案是：连接蓝牙音响，使用蓝牙音箱上的麦克风。
 
 <img src="https://github.com/Passenger-bee/Dell-G3-3500/blob/main/README.assets/%E8%BE%93%E5%87%BA%E9%9F%B3%E9%87%8F.png?raw=true" alt="输出音量" style="zoom:45%;" />
 
