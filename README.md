@@ -30,6 +30,8 @@ Hackintosh
 
 **CPU电源管理**：已加载原生电源管理，但是我禁用了睿频，频率一直在2.5Ghz 可以大幅降低cpu热量（2.5Ghz就够用）
 
+（通过Turbo Boost Switcher Pro这个app禁用）
+
 <img src="https://github.com/Passenger-bee/Dell-G3-3500/blob/main/README.assets/cpu%E9%A2%91%E7%8E%87.png?raw=true" alt="CPU频率" style="zoom: 45%;" />
 
 <img src="https://github.com/Passenger-bee/Dell-G3-3500/blob/main/README.assets/%E7%94%B5%E6%B1%A0.png?raw=true" alt="电池" style="zoom: 45%;" />
@@ -44,7 +46,7 @@ Hackintosh
 
 ALC id为21，其他的id声音太小（调最高也很小），这个正常多了，但是这个id随之带来的一个问题就是睡眠唤醒无声，通过添加CodecCommander.kext解决。
 
- 麦克风的一个解决方案是：连接蓝牙音响，使用蓝牙音箱上的麦克风。
+麦克风的一个解决方案是：连接蓝牙音响，使用蓝牙音箱上的麦克风。
 
 <img src="https://github.com/Passenger-bee/Dell-G3-3500/blob/main/README.assets/%E8%BE%93%E5%87%BA%E9%9F%B3%E9%87%8F.png?raw=true" alt="输出音量" style="zoom:45%;" />
 
